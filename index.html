@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title>Document</title>
+</head>
+<body>
+    <section id="home" class="w-100">
+        
+        <header>
+            <img src="images/wraper.png" alt="" class="wraper w-100">
+        </header>
+        
+        <nav class="navbar navbar-expand-lg mx-auto sticky-top rounded-4">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo-sm.png" alt="" class="logo">
+                <span class="text-white">GAME REVIEWS</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse rounded-bottom-3" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <span class="nav-link active" aria-current="page">mmorpg</span>
+                </li>
+                <li class="nav-item">
+                    <span class="nav-link">shooter</span>
+                </li>
+                <li class="nav-item">
+                    <span class="nav-link">sailing</span>
+                </li>
+                <li class="nav-item">
+                    <span class="nav-link">permadeath</span>
+                </li>
+                <li class="nav-item">
+                    <span class="nav-link">superhero</span>
+                </li>
+                <li class="nav-item">
+                    <span class="nav-link">pixel</span>
+                </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+        <div class="loader-container position-absolute top-0 bottom-0 start-0 end-0 bg-black bg-opacity-75 d-none">
+            <div class="loader position-absolute top-50 start-50"></div>
+        </div>
+        <div class="py-5">
+            <div class="container">
+                
+                <div class="row g-4" id="gamesContainer">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="details" class="w-100 d-none pb-5">
+        <div class="container">
+            <div class="row" id="detailsContainer">
+                
+            </div>
+        </div>
+    </section>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="js/index.js"></script>
+</body>
+</html>

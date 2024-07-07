@@ -1,0 +1,28 @@
+/* sm */
+@media (min-width: 576px) {
+    :root{
+        font-size: 16px;
+    } 
+}
+
+/* md */
+@media (min-width: 768px) {
+    nav{
+        width: 75%;
+    }
+}
+
+/* lg */
+@media (min-width: 992px) {
+    
+}
+
+/* xl */
+@media (min-width: 1200px) {
+    
+}
+
+/* xxl */
+@media (min-width: 1400px) {
+
+}
